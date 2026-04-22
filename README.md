@@ -16,6 +16,12 @@ go build -o cvt-plugin-registry .
 cvt plugins install ./cvt-plugin-registry
 ```
 
+## Test
+
+```sh
+go test ./...
+```
+
 ## Configure
 
 Add to `~/.cvt/config.yaml`:
